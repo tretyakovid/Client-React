@@ -1,0 +1,25 @@
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  width: 100%;
+  max-width: 250px;
+  background-color: rgb(24, 55, 70);
+  padding: 8px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-radius: 16px;
+}
+.card__heading {
+  font-size: 20px;
+}
+.card__price {
+  font-size: 17px;
+  font-weight: 600;
+}
+.card__description {
+  color: rgb(194, 194, 194);
+}

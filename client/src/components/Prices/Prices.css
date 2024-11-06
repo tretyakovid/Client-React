@@ -1,0 +1,18 @@
+.prices {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #111 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, #111 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, #111 25%, transparent 25%),
+    linear-gradient(45deg, #111 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #735050;
+}
+.prices__wrapper {
+  flex-direction: row;
+  gap: 15px;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,32 @@
+.contacts {
+  display: flex;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #000;
+  height: 100vh;
+}
+.contacts__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+.contacts-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+}
+.contact-link {
+  color: #000;
+  font-weight: 600;
+}
+.socials {
+  display: flex;
+  gap: 5px;
+}
+.social-link svg {
+  width: 42px;
+  height: 42px;
+}
